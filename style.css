@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+    height: 100%;
+  }
+  
+  h1 {
+    color: #426696;
+    font-weight: 666;
+    font-size: 2rem;
+    opacity: 0.8;
+  }
+  h2 {
+    color: #658ec6;
+    font-weight: 500;
+    font-size:1.5rem;
+    opacity: 0.8;
+  }
+  
+  p{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size:12px;
+    overflow:auto;
+  
+  }
+  
+  h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  
+  main {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right top, #65dfc9, #ffc3ff);
+  }
+  
+  
+  .glass {
+    background: white;
+    max-height: 66%;
+    max-width: 55%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    padding: 2rem 1rem 2rem 2rem; 
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+  }
+  
+  
+  .sidebar {
+    flex: 1;
+    display: flex;
+    max-width:24%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+  }
+  
+  
+  
+  .links {
+    display: flex;
+    margin-top: -2rem;
+      height:120px;
+      margin-bottom:8rem;
+    padding: 0rem 0rem;
+    padding-top:0px;
+    align-items: center;
+    overflow:auto;
+  }
+  
+  .link{
+    padding: 0rem 0.5rem;
+  }
+  
+  .link:hover{
+      opacity:100%;
+      filter: brightness(0) invert(1) blur(22px); 
+      transition: 500ms ease;
+      
+  }
+  
+  .visa {
+    display:flex; 
+  }
+  
+  .projects {
+    flex: 2;
+  }
+  
+  /* projects */
+  .status {
+    margin-bottom: -1rem;
+    height:12%;
+      overflow:auto;
+  }
+  
+  .projects {
+    flex :2; 
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom:20px;
+      overflow:auto;
+  }
+  
+  .cards{
+    overflow: auto;
+    padding-right:30px;
+    padding-bottom:40px; 
+  }
+  
+  .card {
+    display: flex;
+    width: 500px;
+    height:auto;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 1.5rem 0rem;
+    padding: 2rem;
+    box-shadow: 4px 4px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+      overflow:auto;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+      max-width:66%;
+    
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    border: 1px solid rgb(121, 197, 162);
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background:rgb(121, 197, 162);
+    border-radius: 10px;
+    }
