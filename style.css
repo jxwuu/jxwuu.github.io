@@ -45,18 +45,26 @@
   
   .glass {
     background: white;
-    max-height: 66%;
-    max-width: 55%;
+    max-height: 50%;
+    max-width: 50%;
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.3)
     );
     border-radius: 2rem;
-    padding: 2rem 1rem 2rem 2rem; 
+    padding: 2rem; 
     z-index: 2;
     backdrop-filter: blur(2rem);
     display: flex;
+
+  }
+
+  @media (max-width:700px) {
+    .glass {
+    max-height: 100%; 
+    max-width: 100%;
+    }
   }
   
   
