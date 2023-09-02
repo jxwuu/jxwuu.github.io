@@ -49,7 +49,7 @@
     @media (max-width:800px) {
     height: 80%;
     } 
-    @media (max-width:500px) {
+    @media (max-width:760px) {
       height: 100%;
       max-width: 100%;
     } 
@@ -65,7 +65,7 @@
     );
     border-radius: 1.5rem;
 
-    @media (max-width:500px) {
+    @media (max-width:760px) {
       border-radius:0rem;
     } 
   }
@@ -79,7 +79,7 @@
     border-radius: 20px 20px 0 0; 
     color: #658ec6;
     font-size: 14px;
-    @media (max-width:500px) {
+    @media (max-width:760px) {
       height: 60px;
       line-height: 40px;
       border-radius:0rem;
@@ -236,7 +236,7 @@
     padding: 20px 20px 20px 20px;
     border-top: 1px solid #ffffff;
     text-align: center; */
-  }
+  } 
 
 
   ::-webkit-scrollbar {
@@ -254,7 +254,7 @@
     }
 
 
-    @media (max-width:500px) {
+    @media (max-width:760px) {
       ::-webkit-scrollbar {
         width: 0px;
         }
